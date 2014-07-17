@@ -1,0 +1,311 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*These rules make  code cross-browser compatible*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*You can see the outlines of your divs and containers as you create them
+* { 
+  outline: 1px solid black;
+}
+
+/*See outline fo divs only 
+div{
+	border: 1px dashed gray;
+	border-radius:10px;
+}*/
+ p{
+ 	font-size: 14px;
+ 	color: black;
+ 	display:block;	
+ }
+ 
+ /*Header*/
+ .Header{
+ 	border-radius:5px;
+ 	position: relative;
+ 	width: 98%;
+	height: 75px;
+ 	margin-top:1px;
+ 	/*margin-bottom: 0%;*/
+ }
+ .Header0{
+ 	border-radius:5px;
+ 	position: relative;
+  	width: 35%;
+	height: 60px;
+ 	margin-top:10px;
+  	margin-left: 65%;
+ 	text-align:center;
+ }
+ #You{
+ 	display:inline-block;
+ 	vertical-align:middle;
+ 	margin-right:10px;
+ 	margin-left:10px;
+ }
+ #You:hover {
+	text-decoration: underline;
+ }/**/
+ #Gmail{
+   	display:inline-block;
+   	vertical-align:middle;
+    margin-right:10px;
+ 	margin-left:10px;
+ }
+ #Gmail:hover {
+	text-decoration: underline;
+ }/**/
+ #Images{
+ 	display:inline-block;
+ 	vertical-align:middle;
+  	margin-right:10px;
+ 	margin-left:10px;	
+ }
+ #Images:hover {
+	text-decoration: underline;
+ }/*
+
+ #Apps{
+ 	vertical-align: :middle;
+  	width: 30px;
+	height: 30px;
+	margin-top:20px;
+	display:inline-block;
+  }*/
+ #AppsImage{
+ 	display:inline-block;
+ 	width: 25px;
+	height: 25px;
+	vertical-align:middle;
+	/*margin-top:10px;*/
+}
+#Share{
+ 	display:inline-block;
+ 	vertical-align:middle;
+	border-radius:5px;
+	padding:10px 15px 5px 15px;
+  	margin-left:10px;
+  	background: #ffffff;
+	background: rgba(0, 0, 0, .03);
+ }
+ #Share:hover{
+ 	background: #ffffff;
+	background: rgba(0, 0, 0, .06);
+	text-decoration: underline;
+ }
+
+/*Google Logo*/
+ .Logo{
+  	position: relative;
+ 	width: 98%;
+	height: 150px;
+ 	margin-top:100px;
+ 	margin-bottom: 1%;
+ }
+ #GoogleLogo{
+ 	/*width: 30%;*/
+	height: 110px;
+	margin-left: 34%;
+	margin-top: 10px;
+ }
+  input{
+    
+    background: url("https://dl.dropboxusercontent.com/u/15152010/thinkful/FEWD/google_clone/images/microphone.png") no-repeat 0 right;
+    /*background-color:red;*/ 
+   	background-size: auto 10%;
+   	border: 1px solid rgba(0, 0, 0, .09);
+  	font-size: 18px;
+  	margin-top: 10px;
+  	width: 600px;/**/
+  	height: 22px;/**/
+  	margin-left: 20%;
+  }
+  input:hover {
+	text-decoration: none;
+	border: 1px solid rgba(0, 0, 0, .2);
+}
+  input:focus {
+	text-decoration: none;
+	border: 2px solid blue;
+}
+  /*#Microphone{
+	width: 17px;
+	height: 17px;
+	margin-left: -22px;
+}*/
+
+/*Google Search*/
+ .Search{
+
+ 	border-radius:5px;
+ 	position: relative;
+ 	width: 98%;
+	height: 65px;
+ 	margin-top:20px;
+ 	/*margin-bottom: 0%;*/
+ 	text-align:center;
+ }
+ .SearchButtons{
+  	background-color:white url("https://dl.dropboxusercontent.com/u/15152010/thinkful/FEWD/google_clone/images/google-logo.png") 50% 50% no-repeat;
+   	background-size: auto 100%;
+
+ 	border-radius:5px;
+ 	position: relative;
+  	width: 30%;
+	height: 40px;
+ 	margin-top:12.5px;
+ 	margin-bottom: 12.5px;
+ 	margin-left: 34%;
+ 	
+ } 
+ #GoogleSearch{
+ 	border-radius:3px;
+ 	margin-right: 10px;
+ 	background: #ffffff;
+	background: rgba(0, 0, 0, .03);
+	border: 1px solid rgba(0, 0, 0, .1);
+ }
+ #GoogleSearch:hover {
+	/*background: radial-gradient(#648880, #293f50);*/
+	background: #ffffff;
+	background: rgba(0, 0, 0, .05);
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-bottom: 3px solid rgba(0, 0, 0, .15);
+ }/**/
+ #Lucky{
+ 	border-radius:3px;
+ 	margin-right: 10px;
+ 	background: #ffffff;
+	background: rgba(0, 0, 0, .03);
+	border: 1px solid rgba(0, 0, 0, .1);
+ }
+  #Lucky:hover {
+	background: #ffffff;
+	background: rgba(0, 0, 0, .05);
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-bottom: 3px solid rgba(0, 0, 0, .15);
+ }
+
+ /*Footer*/
+ .Footer{
+	background: #ffffff;
+	background: rgba(0, 0, 0, .05);
+  	position: relative;
+ 	width: 100%;
+	height: 50px;
+ 	margin-top: 440px;
+ }
+
+ .LeftLinks{
+  	position: relative;
+ 	float: left;
+ 	width: 27%;
+	height: 25px;
+ 	margin-top:12.5px;
+ 	margin-bottom: 12.5px;
+ 	margin-left: .5%;
+ 	/*display:inline-block;*/
+ 	text-align:center;
+ }
+#Ad{
+ 	display:inline-block;
+ 	margin-top:5px;
+ 	margin-right:10px;
+ 	margin-left:10px;
+ 	
+ }
+ #Ad:hover {
+	text-decoration: underline;
+ }/**/
+ #Bus{
+   	display:inline-block;
+   	margin-top:5px;
+ 	margin-right:10px;
+ 	margin-left:10px;
+ }
+ #Bus:hover {
+	text-decoration: underline;
+ }/**/
+ #About{
+ 	display:inline-block;
+ 	margin-top:5px;
+ 	margin-right:10px;
+ 	margin-left:10px;
+ }
+ #About:hover {
+	text-decoration: underline;
+}/**/
+ 
+ .RightLinks{
+ 	position: relative;
+ 	float: right;
+ 	width: 27%;
+	height: 25px;
+ 	margin-top:12.5px;
+ 	margin-bottom: 12.5px;
+ 	margin-right: .5%;
+ 	text-align:center;
+ }
+ #PT{
+ 	display:inline-block;
+ 	margin-top:5px;
+ 	margin-right:10px;
+ 	margin-left:10px;	
+ }
+ #PT:hover {
+	text-decoration: underline;
+ }/**/
+ #Settings{
+   	display:inline-block;
+   	margin-top:5px;
+ 	margin-right:10px;
+ 	margin-left:10px;
+ }
+ #Settings:hover {
+	text-decoration: underline;
+ }/**/
+ 
